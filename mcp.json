@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "arxiv-searcher": {
+      "command": "/home/jihan_xu/Desktop/Real_Work/MCP/.venv/bin/python",
+      "args": [
+        "/home/jihan_xu/Desktop/Real_Work/MCP/arxiv_server.py"
+      ]
+    },
+    "mcp-fridge": {
+      "command": "/home/jihan_xu/Desktop/Real_Work/MCP/.venv/bin/python",
+      "args": [
+        "/home/jihan_xu/Desktop/Real_Work/MCP/kitchen_server.py"
+      ]
+    },
+    "mcp-fridge-remote": {
+      "type": "sse",
+      "url": "http://localhost:8000/sse"
+    }
+  }
+}
